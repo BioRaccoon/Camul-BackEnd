@@ -67,7 +67,7 @@ namespace RepositoryLayer.Migrations
                     b.HasData(
                         new
                         {
-                            UserID = new Guid("f3f97f86-f1de-4d67-a62b-21e60bb3f5ec"),
+                            UserID = new Guid("f15b79b8-d471-4139-8fa2-6db4900d80f7"),
                             Age = 18,
                             Avatar = "hg",
                             ConfirmPassword = "itsTheEndOfThe$Pasta1",
@@ -78,7 +78,7 @@ namespace RepositoryLayer.Migrations
                         },
                         new
                         {
-                            UserID = new Guid("aa2f10e2-a65b-4ef8-87b2-66b37b971872"),
+                            UserID = new Guid("eed7c5fb-992a-4dab-bf79-20ec21fbaad5"),
                             Age = 21,
                             Avatar = "ku",
                             ConfirmPassword = "thatsHowMafia7$Works",
@@ -143,7 +143,7 @@ namespace RepositoryLayer.Migrations
                     b.HasData(
                         new
                         {
-                            UserID = new Guid("f3dd50ce-bb1e-4c88-9e9a-2e51f75c4434"),
+                            UserID = new Guid("44a6aac2-20b8-44cf-b283-f80895b8768c"),
                             Age = 22,
                             Avatar = "as",
                             ConfirmPassword = "forTheMotherFoca@7",
@@ -151,12 +151,12 @@ namespace RepositoryLayer.Migrations
                             Incapacity = "",
                             IsActive = true,
                             Password = "forTheMotherFoca@7",
-                            UserLocationID = new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962"),
+                            UserLocationID = new Guid("932316af-16b6-41bf-8ef1-9f202f735f37"),
                             Username = "Joseph"
                         },
                         new
                         {
-                            UserID = new Guid("9d064a8e-ebb2-4d40-97b6-bb79a5d8452d"),
+                            UserID = new Guid("cfe6ffcb-ea08-4bb5-9f9d-76ae099ebd27"),
                             Age = 30,
                             Avatar = "gv",
                             ConfirmPassword = "euGostoDeCamul123$",
@@ -164,12 +164,12 @@ namespace RepositoryLayer.Migrations
                             Incapacity = "wheelChair",
                             IsActive = true,
                             Password = "euGostoDeCamul123$",
-                            UserLocationID = new Guid("a3283abe-4d51-41e7-b3f0-fc13dd773c25"),
+                            UserLocationID = new Guid("49b88907-af06-4c33-9276-94c32d3cd3f2"),
                             Username = "Carlos"
                         },
                         new
                         {
-                            UserID = new Guid("83bb0eaf-5dca-40ac-9960-1d7de79435c0"),
+                            UserID = new Guid("128cdce3-b7c3-4ebd-8b4e-9e2fba9c30a4"),
                             Age = 16,
                             Avatar = "bh",
                             ConfirmPassword = "queijo123ComBacon$",
@@ -177,12 +177,12 @@ namespace RepositoryLayer.Migrations
                             Incapacity = "",
                             IsActive = true,
                             Password = "queijo123ComBacon$",
-                            UserLocationID = new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962"),
+                            UserLocationID = new Guid("932316af-16b6-41bf-8ef1-9f202f735f37"),
                             Username = "Diogo"
                         },
                         new
                         {
-                            UserID = new Guid("6b7310d0-42e7-4498-9aec-4260e10fa080"),
+                            UserID = new Guid("464b1ff3-7df8-4dbf-a80a-a164c6ed02b0"),
                             Age = 22,
                             Avatar = "yh",
                             ConfirmPassword = "sirvaPureComArroz$1",
@@ -190,7 +190,7 @@ namespace RepositoryLayer.Migrations
                             Incapacity = "",
                             IsActive = true,
                             Password = "sirvaPureComArroz$1",
-                            UserLocationID = new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962"),
+                            UserLocationID = new Guid("932316af-16b6-41bf-8ef1-9f202f735f37"),
                             Username = "Tiago"
                         });
                 });
@@ -227,115 +227,115 @@ namespace RepositoryLayer.Migrations
                     b.HasData(
                         new
                         {
-                            CourseID = new Guid("99b6dfce-cf03-4fb1-b153-2d85a5c978c7"),
+                            CourseID = new Guid("9b3eb38a-2857-40a6-a5c8-4d36e14c7147"),
                             Description = "Path from A to I",
-                            EndPointID = new Guid("67efb852-f501-4755-a6e9-c5c83b05b941"),
+                            EndPointID = new Guid("60bf9cf6-b963-42af-ae34-a559a73463da"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("9aa08875-8921-4c23-b67f-1881a2e32782")
+                            InitialPointID = new Guid("dc541192-44b7-454c-b81e-dca6119f8352")
                         },
                         new
                         {
-                            CourseID = new Guid("097ad3c5-5bcb-48c4-bba8-538a1b61cc6c"),
+                            CourseID = new Guid("8ffa3a59-ed58-4bee-a6c9-5be30920f596"),
                             Description = "Path from I to A",
-                            EndPointID = new Guid("9aa08875-8921-4c23-b67f-1881a2e32782"),
+                            EndPointID = new Guid("dc541192-44b7-454c-b81e-dca6119f8352"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("67efb852-f501-4755-a6e9-c5c83b05b941")
+                            InitialPointID = new Guid("60bf9cf6-b963-42af-ae34-a559a73463da")
                         },
                         new
                         {
-                            CourseID = new Guid("7b3e78c3-814f-4b97-b647-6834783ebada"),
+                            CourseID = new Guid("fa5ba836-c23b-4cc0-9a92-c71a788c71cb"),
                             Description = "Path from I to B",
-                            EndPointID = new Guid("b9040891-d05d-4d45-b074-b9f229df5136"),
+                            EndPointID = new Guid("d24e559b-5582-40a1-b123-51d2c12d5c8b"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("67efb852-f501-4755-a6e9-c5c83b05b941")
+                            InitialPointID = new Guid("60bf9cf6-b963-42af-ae34-a559a73463da")
                         },
                         new
                         {
-                            CourseID = new Guid("4b758ac8-a8dc-4e80-85dc-efee63ee69da"),
+                            CourseID = new Guid("fa9418b5-2065-48f2-b32f-86d2dfd4790d"),
                             Description = "Path from B to I",
-                            EndPointID = new Guid("67efb852-f501-4755-a6e9-c5c83b05b941"),
+                            EndPointID = new Guid("60bf9cf6-b963-42af-ae34-a559a73463da"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("b9040891-d05d-4d45-b074-b9f229df5136")
+                            InitialPointID = new Guid("d24e559b-5582-40a1-b123-51d2c12d5c8b")
                         },
                         new
                         {
-                            CourseID = new Guid("1f9e0996-4764-4cb3-8bd6-fc1f19fceea2"),
+                            CourseID = new Guid("1ac1bc72-16fb-45d1-99a1-37e928bf4547"),
                             Description = "Path from B to G",
-                            EndPointID = new Guid("624e7d79-c54a-4905-b377-f32e137a4cb6"),
+                            EndPointID = new Guid("d5fb6972-4a61-4c11-9c15-8e856169c54e"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("b9040891-d05d-4d45-b074-b9f229df5136")
+                            InitialPointID = new Guid("d24e559b-5582-40a1-b123-51d2c12d5c8b")
                         },
                         new
                         {
-                            CourseID = new Guid("a5e9c37e-3c8f-482b-bdf7-2e6f6a52706e"),
+                            CourseID = new Guid("a8d75a59-c3fc-4d24-8d19-35080c5e4f96"),
                             Description = "Path from G to B",
-                            EndPointID = new Guid("b9040891-d05d-4d45-b074-b9f229df5136"),
+                            EndPointID = new Guid("d24e559b-5582-40a1-b123-51d2c12d5c8b"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("624e7d79-c54a-4905-b377-f32e137a4cb6")
+                            InitialPointID = new Guid("d5fb6972-4a61-4c11-9c15-8e856169c54e")
                         },
                         new
                         {
-                            CourseID = new Guid("12bf1d60-d833-414f-832f-49db5b58e591"),
+                            CourseID = new Guid("fce83bd0-512e-409d-a6f6-bdce8971bb8b"),
                             Description = "Path from G to H",
-                            EndPointID = new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a"),
+                            EndPointID = new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("624e7d79-c54a-4905-b377-f32e137a4cb6")
+                            InitialPointID = new Guid("d5fb6972-4a61-4c11-9c15-8e856169c54e")
                         },
                         new
                         {
-                            CourseID = new Guid("471a79f4-ef9c-48c7-aa39-7e8f3dd05227"),
+                            CourseID = new Guid("e85cbe41-9061-47a4-a445-485c76d4762a"),
                             Description = "Path from H to G",
-                            EndPointID = new Guid("624e7d79-c54a-4905-b377-f32e137a4cb6"),
+                            EndPointID = new Guid("d5fb6972-4a61-4c11-9c15-8e856169c54e"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a")
+                            InitialPointID = new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac")
                         },
                         new
                         {
-                            CourseID = new Guid("3505fb67-2834-44ad-84c4-1089e77e8c10"),
+                            CourseID = new Guid("cf6429a9-0db6-4dfb-a0ff-8e89e0b61499"),
                             Description = "Path from H to A",
-                            EndPointID = new Guid("9aa08875-8921-4c23-b67f-1881a2e32782"),
+                            EndPointID = new Guid("dc541192-44b7-454c-b81e-dca6119f8352"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a")
+                            InitialPointID = new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac")
                         },
                         new
                         {
-                            CourseID = new Guid("b5570534-f022-4277-879d-26ec309d2e1a"),
+                            CourseID = new Guid("b1bd4c64-2e8a-42c6-bfc6-7d230660528b"),
                             Description = "Path from A to H",
-                            EndPointID = new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a"),
+                            EndPointID = new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("9aa08875-8921-4c23-b67f-1881a2e32782")
+                            InitialPointID = new Guid("dc541192-44b7-454c-b81e-dca6119f8352")
                         },
                         new
                         {
-                            CourseID = new Guid("4ba06619-5907-404a-9bb2-65524aefd01e"),
+                            CourseID = new Guid("ca23019d-c3c2-4ab7-9e46-95e3d9f63b98"),
                             Description = "Path from A to AuditorioMagno",
-                            EndPointID = new Guid("4ed93ab5-319c-473e-a04d-c04ea9e237ee"),
+                            EndPointID = new Guid("bc9ef8d3-ed40-471a-b4b4-951b4c6f9a52"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("9aa08875-8921-4c23-b67f-1881a2e32782")
+                            InitialPointID = new Guid("dc541192-44b7-454c-b81e-dca6119f8352")
                         },
                         new
                         {
-                            CourseID = new Guid("a0304656-1c57-45d7-9f2f-4dea821fdc69"),
+                            CourseID = new Guid("2df6a70f-652d-480b-a62e-d98439626fe2"),
                             Description = "Path from AuditorioMagno to A ",
-                            EndPointID = new Guid("9aa08875-8921-4c23-b67f-1881a2e32782"),
+                            EndPointID = new Guid("dc541192-44b7-454c-b81e-dca6119f8352"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("4ed93ab5-319c-473e-a04d-c04ea9e237ee")
+                            InitialPointID = new Guid("bc9ef8d3-ed40-471a-b4b4-951b4c6f9a52")
                         },
                         new
                         {
-                            CourseID = new Guid("b5b8b886-2c3c-4287-bcf8-a541a1936446"),
+                            CourseID = new Guid("80f2d865-9121-4405-ac2b-322d389257f9"),
                             Description = "Path from H to AuditorioMagno",
-                            EndPointID = new Guid("4ed93ab5-319c-473e-a04d-c04ea9e237ee"),
+                            EndPointID = new Guid("bc9ef8d3-ed40-471a-b4b4-951b4c6f9a52"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a")
+                            InitialPointID = new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac")
                         },
                         new
                         {
-                            CourseID = new Guid("e35ca02f-a0bc-4f98-91f3-ba78c55fe2bd"),
+                            CourseID = new Guid("85bb7c32-32b7-4d49-90e5-dc52db2d08a4"),
                             Description = "Path from AuditorioMagno to H",
-                            EndPointID = new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a"),
+                            EndPointID = new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac"),
                             IncapacityAcessible = true,
-                            InitialPointID = new Guid("4ed93ab5-319c-473e-a04d-c04ea9e237ee")
+                            InitialPointID = new Guid("bc9ef8d3-ed40-471a-b4b4-951b4c6f9a52")
                         });
                 });
 
@@ -375,66 +375,66 @@ namespace RepositoryLayer.Migrations
                     b.HasData(
                         new
                         {
-                            FeedbackID = new Guid("9b7cd70b-9276-4278-acce-59b12bbd7a68"),
-                            ClientID = new Guid("f3dd50ce-bb1e-4c88-9e9a-2e51f75c4434"),
+                            FeedbackID = new Guid("d825b44f-89aa-4798-a2d5-573ed40d7a57"),
+                            ClientID = new Guid("44a6aac2-20b8-44cf-b283-f80895b8768c"),
                             CloudFolderURL = "https://www.google.com",
-                            FeedbackDate = new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6353),
+                            FeedbackDate = new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9301),
                             FeedbackDescription = "I cant see the building!",
-                            FeedbackLocationID = new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962")
+                            FeedbackLocationID = new Guid("932316af-16b6-41bf-8ef1-9f202f735f37")
                         },
                         new
                         {
-                            FeedbackID = new Guid("797fe6df-1828-41ba-a5df-9d8e0a3809da"),
-                            ClientID = new Guid("9d064a8e-ebb2-4d40-97b6-bb79a5d8452d"),
+                            FeedbackID = new Guid("a6cc8939-adac-40fc-ac60-8444305639ec"),
+                            ClientID = new Guid("cfe6ffcb-ea08-4bb5-9f9d-76ae099ebd27"),
                             CloudFolderURL = "https://www.google.com",
-                            FeedbackDate = new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6363),
+                            FeedbackDate = new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9311),
                             FeedbackDescription = "It is in construction work!",
-                            FeedbackLocationID = new Guid("a3283abe-4d51-41e7-b3f0-fc13dd773c25")
+                            FeedbackLocationID = new Guid("49b88907-af06-4c33-9276-94c32d3cd3f2")
                         },
                         new
                         {
-                            FeedbackID = new Guid("e0e94b6c-a75e-4a69-8c1e-b2f7885151b2"),
-                            ClientID = new Guid("83bb0eaf-5dca-40ac-9960-1d7de79435c0"),
+                            FeedbackID = new Guid("68f7ddc7-9c13-4360-8ec9-894fcc84dffd"),
+                            ClientID = new Guid("128cdce3-b7c3-4ebd-8b4e-9e2fba9c30a4"),
                             CloudFolderURL = "https://www.google.com",
-                            FeedbackDate = new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6367),
+                            FeedbackDate = new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9315),
                             FeedbackDescription = "The building is different.",
-                            FeedbackLocationID = new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962")
+                            FeedbackLocationID = new Guid("932316af-16b6-41bf-8ef1-9f202f735f37")
                         },
                         new
                         {
-                            FeedbackID = new Guid("8d02939f-63fa-464a-a0ca-cb09b6bebeb2"),
-                            ClientID = new Guid("6b7310d0-42e7-4498-9aec-4260e10fa080"),
+                            FeedbackID = new Guid("14bf6c6d-45c5-4d36-ba90-dbeb07c6c5b5"),
+                            ClientID = new Guid("464b1ff3-7df8-4dbf-a80a-a164c6ed02b0"),
                             CloudFolderURL = "https://www.google.com",
-                            FeedbackDate = new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6371),
+                            FeedbackDate = new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9321),
                             FeedbackDescription = "The sight is awful!",
-                            FeedbackLocationID = new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962")
+                            FeedbackLocationID = new Guid("932316af-16b6-41bf-8ef1-9f202f735f37")
                         },
                         new
                         {
-                            FeedbackID = new Guid("7c0524a8-0f24-4270-bf75-b7ce63feb5a9"),
-                            ClientID = new Guid("83bb0eaf-5dca-40ac-9960-1d7de79435c0"),
+                            FeedbackID = new Guid("ab0ffafb-e017-4b0e-a800-b3083c218386"),
+                            ClientID = new Guid("128cdce3-b7c3-4ebd-8b4e-9e2fba9c30a4"),
                             CloudFolderURL = "https://www.google.com",
-                            FeedbackDate = new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6375),
+                            FeedbackDate = new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9326),
                             FeedbackDescription = "The place smells bad!",
-                            FeedbackLocationID = new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962")
+                            FeedbackLocationID = new Guid("932316af-16b6-41bf-8ef1-9f202f735f37")
                         },
                         new
                         {
-                            FeedbackID = new Guid("72ff822d-fbf1-48b4-b364-c138b6c1a914"),
-                            ClientID = new Guid("9d064a8e-ebb2-4d40-97b6-bb79a5d8452d"),
+                            FeedbackID = new Guid("c3c40450-c6e6-4000-b03b-12178b5feef9"),
+                            ClientID = new Guid("cfe6ffcb-ea08-4bb5-9f9d-76ae099ebd27"),
                             CloudFolderURL = "https://www.google.com",
-                            FeedbackDate = new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6378),
+                            FeedbackDate = new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9329),
                             FeedbackDescription = "Good path with awesome view!",
-                            FeedbackLocationID = new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962")
+                            FeedbackLocationID = new Guid("932316af-16b6-41bf-8ef1-9f202f735f37")
                         },
                         new
                         {
-                            FeedbackID = new Guid("ab003761-232c-4c97-acf5-826065e56c56"),
-                            ClientID = new Guid("f3dd50ce-bb1e-4c88-9e9a-2e51f75c4434"),
+                            FeedbackID = new Guid("633f9bc1-cb28-400f-89e2-1c8a78157599"),
+                            ClientID = new Guid("44a6aac2-20b8-44cf-b283-f80895b8768c"),
                             CloudFolderURL = "https://www.google.com",
-                            FeedbackDate = new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6381),
+                            FeedbackDate = new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9332),
                             FeedbackDescription = "Thank you for the reception from ISEP!",
-                            FeedbackLocationID = new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962")
+                            FeedbackLocationID = new Guid("932316af-16b6-41bf-8ef1-9f202f735f37")
                         });
                 });
 
@@ -458,127 +458,127 @@ namespace RepositoryLayer.Migrations
                     b.HasData(
                         new
                         {
-                            LocationID = new Guid("a3283abe-4d51-41e7-b3f0-fc13dd773c25"),
+                            LocationID = new Guid("49b88907-af06-4c33-9276-94c32d3cd3f2"),
                             Latitude = 41.178472726585674,
                             Longitude = -8.6087807216442869
                         },
                         new
                         {
-                            LocationID = new Guid("44fa0f16-c58d-430c-ab5a-97ef4d9c6f61"),
+                            LocationID = new Guid("8cf8447e-e9e0-46d9-983c-3ea7d5c7ef47"),
                             Latitude = 41.177711788665363,
                             Longitude = -8.6077586936904744
                         },
                         new
                         {
-                            LocationID = new Guid("32323b97-e58d-49ee-98f2-2f10f1be7111"),
+                            LocationID = new Guid("9ddf7080-ac80-42dd-9c34-f5dab4cb6790"),
                             Latitude = 41.178843863356043,
                             Longitude = -8.60702514650362
                         },
                         new
                         {
-                            LocationID = new Guid("b8513d2c-9be7-4906-850d-4299056c438e"),
+                            LocationID = new Guid("753a2d07-ad1c-43be-9474-0e38704f8658"),
                             Latitude = 41.179110097095872,
                             Longitude = -8.6070945594407782
                         },
                         new
                         {
-                            LocationID = new Guid("1631324d-5da4-4c04-93a2-a320f5bdb14d"),
+                            LocationID = new Guid("e6f8a262-1514-42c8-bb9a-bb7b857072ac"),
                             Latitude = 41.179469643235471,
                             Longitude = -8.6059597348474224
                         },
                         new
                         {
-                            LocationID = new Guid("d69dfd7e-9d29-4ea4-a057-65d1d7d4f581"),
+                            LocationID = new Guid("7816051a-4970-4590-9e9a-ef543ca1ad27"),
                             Latitude = 41.179276075812993,
                             Longitude = -8.6078482087685995
                         },
                         new
                         {
-                            LocationID = new Guid("dbced685-8e74-4f2b-9178-c0fbc04cf564"),
+                            LocationID = new Guid("9871553d-0d82-4fe5-9374-b8786156710c"),
                             Latitude = 41.177564994929561,
                             Longitude = -8.6083047981405159
                         },
                         new
                         {
-                            LocationID = new Guid("3aef4f84-dc03-4a24-91c3-8936921907d6"),
+                            LocationID = new Guid("2a671978-6c7a-4ba2-a81d-2b98f7f3c8f2"),
                             Latitude = 41.177967145422194,
                             Longitude = -8.6085062262311105
                         },
                         new
                         {
-                            LocationID = new Guid("9218dee3-812a-44f7-a117-0456eb888a82"),
+                            LocationID = new Guid("8481df56-1007-46c0-a3e9-c66b200ba356"),
                             Latitude = 41.178104599027193,
                             Longitude = -8.6079171398224492
                         },
                         new
                         {
-                            LocationID = new Guid("feec28de-b0e1-4ed6-97b4-b3964aa45f1c"),
+                            LocationID = new Guid("f7e0c983-c9af-4036-a4a2-a2b5e2de9032"),
                             Latitude = 41.178429896021797,
                             Longitude = -8.6075151873977322
                         },
                         new
                         {
-                            LocationID = new Guid("6e723e95-6a99-4ae1-aea2-64c4442c3ce9"),
+                            LocationID = new Guid("36ab6d27-20a4-4937-ae3a-ddbd35cc1e27"),
                             Latitude = 41.178984721995306,
                             Longitude = -8.6083692036936128
                         },
                         new
                         {
-                            LocationID = new Guid("98489606-551b-420c-8096-462e0deadcac"),
+                            LocationID = new Guid("595b51cc-9116-4cf3-86bc-c151c686629a"),
                             Latitude = 41.177841263041209,
                             Longitude = -8.6079983063935739
                         },
                         new
                         {
-                            LocationID = new Guid("eebf553f-a4ae-4047-a969-a9096bbb24f6"),
+                            LocationID = new Guid("537448be-b920-4541-91a8-dc2e5460dd43"),
                             Latitude = 41.178773264549697,
                             Longitude = -8.608947821523687
                         },
                         new
                         {
-                            LocationID = new Guid("dfc50880-0c57-4d33-8b7b-0b5d99ba4d7c"),
+                            LocationID = new Guid("c41b3aa5-d285-4986-8d48-3e54ab5376f8"),
                             Latitude = 41.178155377732104,
                             Longitude = -8.6083497177966759
                         },
                         new
                         {
-                            LocationID = new Guid("7b2f6f93-7b9d-4812-abce-a6c49ea5a345"),
+                            LocationID = new Guid("1cc040df-f013-47e0-b42b-f3044863f155"),
                             Latitude = 41.17833004000633,
                             Longitude = -8.6068877514979683
                         },
                         new
                         {
-                            LocationID = new Guid("54ab0c02-5de2-41ff-8915-4e03e01f09c3"),
+                            LocationID = new Guid("c59fe3f2-6682-4ec9-9a2e-13fe229eff1b"),
                             Latitude = 41.178602169673589,
                             Longitude = -8.6089645852372154
                         },
                         new
                         {
-                            LocationID = new Guid("1dcccab2-7df4-420b-9978-55943542df46"),
+                            LocationID = new Guid("ae12188b-ebc9-4c64-87db-946020c31908"),
                             Latitude = 41.1794081572219,
                             Longitude = -8.6066880570955586
                         },
                         new
                         {
-                            LocationID = new Guid("3bfcb259-34bb-4feb-ad61-3654097adb62"),
+                            LocationID = new Guid("e22a5415-d4af-40a0-9bc3-34ccbc2c5540"),
                             Latitude = 41.179435815023893,
                             Longitude = -8.6070977092565961
                         },
                         new
                         {
-                            LocationID = new Guid("257246ee-7845-439d-b51a-7fb3e7136ee4"),
+                            LocationID = new Guid("88994499-fd98-46e0-bee9-66af8fe6a9be"),
                             Latitude = 41.17944250803648,
                             Longitude = -8.6086616434248153
                         },
                         new
                         {
-                            LocationID = new Guid("01f4542f-73f0-4b47-9111-c6f2a4e9d61d"),
+                            LocationID = new Guid("9d26ba2b-452b-4858-8691-008d9139142a"),
                             Latitude = 41.179084789896223,
                             Longitude = -8.6087289902487836
                         },
                         new
                         {
-                            LocationID = new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962"),
+                            LocationID = new Guid("932316af-16b6-41bf-8ef1-9f202f735f37"),
                             Latitude = 0.0,
                             Longitude = 0.0
                         });
@@ -621,130 +621,130 @@ namespace RepositoryLayer.Migrations
                     b.HasData(
                         new
                         {
-                            PointID = new Guid("9aa08875-8921-4c23-b67f-1881a2e32782"),
+                            PointID = new Guid("dc541192-44b7-454c-b81e-dca6119f8352"),
                             Description = "Beacon from Building A",
                             Image360 = "sd",
-                            PointLocationID = new Guid("a3283abe-4d51-41e7-b3f0-fc13dd773c25"),
+                            PointLocationID = new Guid("49b88907-af06-4c33-9276-94c32d3cd3f2"),
                             PointName = "Beacon A"
                         },
                         new
                         {
-                            PointID = new Guid("b9040891-d05d-4d45-b074-b9f229df5136"),
+                            PointID = new Guid("d24e559b-5582-40a1-b123-51d2c12d5c8b"),
                             Description = "Beacon from Building B",
                             Image360 = "ng",
-                            PointLocationID = new Guid("44fa0f16-c58d-430c-ab5a-97ef4d9c6f61"),
+                            PointLocationID = new Guid("8cf8447e-e9e0-46d9-983c-3ea7d5c7ef47"),
                             PointName = "Beacon B"
                         },
                         new
                         {
-                            PointID = new Guid("a47c8ec8-f04c-48ff-b9ac-13ac1f760e4a"),
+                            PointID = new Guid("ae1feab2-ba41-4013-a65c-a96005918e93"),
                             Description = "Beacon from Building C",
                             Image360 = "jy",
-                            PointLocationID = new Guid("32323b97-e58d-49ee-98f2-2f10f1be7111"),
+                            PointLocationID = new Guid("9ddf7080-ac80-42dd-9c34-f5dab4cb6790"),
                             PointName = "Beacon C"
                         },
                         new
                         {
-                            PointID = new Guid("f9c54552-dd35-41e2-81ca-3e6b161e036d"),
+                            PointID = new Guid("2e3eca64-e939-4f2c-93ea-0306f4e62a1c"),
                             Description = "Beacon from Building D",
                             Image360 = "gv",
-                            PointLocationID = new Guid("b8513d2c-9be7-4906-850d-4299056c438e"),
+                            PointLocationID = new Guid("753a2d07-ad1c-43be-9474-0e38704f8658"),
                             PointName = "Beacon D"
                         },
                         new
                         {
-                            PointID = new Guid("6f7fc315-cd70-4914-b205-e99d731eb858"),
+                            PointID = new Guid("d9ad703e-3b2e-4b8e-bfe0-1bbbc10f71ba"),
                             Description = "Beacon from Building E",
                             Image360 = "uh",
-                            PointLocationID = new Guid("1631324d-5da4-4c04-93a2-a320f5bdb14d"),
+                            PointLocationID = new Guid("e6f8a262-1514-42c8-bb9a-bb7b857072ac"),
                             PointName = "Beacon E"
                         },
                         new
                         {
-                            PointID = new Guid("3a40db35-7852-40cd-ae6d-83c87ff9851c"),
+                            PointID = new Guid("c29aae18-81eb-4be9-8b96-59f09e4c20c8"),
                             Description = "Beacon from Building F",
                             Image360 = "bj",
-                            PointLocationID = new Guid("d69dfd7e-9d29-4ea4-a057-65d1d7d4f581"),
+                            PointLocationID = new Guid("7816051a-4970-4590-9e9a-ef543ca1ad27"),
                             PointName = "Beacon F"
                         },
                         new
                         {
-                            PointID = new Guid("624e7d79-c54a-4905-b377-f32e137a4cb6"),
+                            PointID = new Guid("d5fb6972-4a61-4c11-9c15-8e856169c54e"),
                             Description = "Beacon from Building G",
                             Image360 = "rh",
-                            PointLocationID = new Guid("dbced685-8e74-4f2b-9178-c0fbc04cf564"),
+                            PointLocationID = new Guid("9871553d-0d82-4fe5-9374-b8786156710c"),
                             PointName = "Beacon G"
                         },
                         new
                         {
-                            PointID = new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a"),
+                            PointID = new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac"),
                             Description = "Beacon from Building H",
                             Image360 = "jg",
-                            PointLocationID = new Guid("3aef4f84-dc03-4a24-91c3-8936921907d6"),
+                            PointLocationID = new Guid("2a671978-6c7a-4ba2-a81d-2b98f7f3c8f2"),
                             PointName = "Beacon H"
                         },
                         new
                         {
-                            PointID = new Guid("67efb852-f501-4755-a6e9-c5c83b05b941"),
+                            PointID = new Guid("60bf9cf6-b963-42af-ae34-a559a73463da"),
                             Description = "Beacon from Building I",
                             Image360 = "gb",
-                            PointLocationID = new Guid("9218dee3-812a-44f7-a117-0456eb888a82"),
+                            PointLocationID = new Guid("8481df56-1007-46c0-a3e9-c66b200ba356"),
                             PointName = "Beacon I"
                         },
                         new
                         {
-                            PointID = new Guid("dbc624be-5f60-4886-a01a-7676708a0313"),
+                            PointID = new Guid("4fadedf8-9263-43b0-9695-6db3f3ff4d8e"),
                             Description = "Beacon from Building J",
                             Image360 = "ad",
-                            PointLocationID = new Guid("feec28de-b0e1-4ed6-97b4-b3964aa45f1c"),
+                            PointLocationID = new Guid("f7e0c983-c9af-4036-a4a2-a2b5e2de9032"),
                             PointName = "Beacon J"
                         },
                         new
                         {
-                            PointID = new Guid("d9e82cd6-5a83-47c7-a12e-cf50ae3e041d"),
+                            PointID = new Guid("267c58c2-e7a9-4912-a211-ccdad2e78a9c"),
                             Description = "Beacon from Building K",
                             Image360 = "db",
-                            PointLocationID = new Guid("6e723e95-6a99-4ae1-aea2-64c4442c3ce9"),
+                            PointLocationID = new Guid("36ab6d27-20a4-4937-ae3a-ddbd35cc1e27"),
                             PointName = "Beacon K"
                         },
                         new
                         {
-                            PointID = new Guid("70e264fb-b93c-4870-acb9-9027cedfe93e"),
+                            PointID = new Guid("fa6e8a20-8558-4a18-ad41-7876abb95662"),
                             Description = "Beacon from Building L",
                             Image360 = "cd",
-                            PointLocationID = new Guid("98489606-551b-420c-8096-462e0deadcac"),
+                            PointLocationID = new Guid("595b51cc-9116-4cf3-86bc-c151c686629a"),
                             PointName = "Beacon L"
                         },
                         new
                         {
-                            PointID = new Guid("ba33e56c-240e-414a-b73b-077827c0b6b8"),
+                            PointID = new Guid("1e29bc7c-daf3-4baf-821f-549f772fcb1b"),
                             Description = "Entry from parking car next to Auditorio Magno",
                             Image360 = "ws",
-                            PointLocationID = new Guid("eebf553f-a4ae-4047-a969-a9096bbb24f6"),
+                            PointLocationID = new Guid("537448be-b920-4541-91a8-dc2e5460dd43"),
                             PointName = "Beacon Entry Backs"
                         },
                         new
                         {
-                            PointID = new Guid("98d31708-cc3f-4701-b51a-ffaf87a67a42"),
+                            PointID = new Guid("9ebe9d4d-69ce-4d11-bf41-a282981da133"),
                             Description = "Entry from Building H",
                             Image360 = "rt",
-                            PointLocationID = new Guid("dfc50880-0c57-4d33-8b7b-0b5d99ba4d7c"),
+                            PointLocationID = new Guid("c41b3aa5-d285-4986-8d48-3e54ab5376f8"),
                             PointName = "Beacon Entry Main Gate"
                         },
                         new
                         {
-                            PointID = new Guid("d7ccb306-cc59-455a-8c98-3c9f35f8a4b9"),
+                            PointID = new Guid("fb2d7b4c-0f58-413b-85fc-7bb1664c0918"),
                             Description = "Entry from building E",
                             Image360 = "gf",
-                            PointLocationID = new Guid("7b2f6f93-7b9d-4812-abce-a6c49ea5a345"),
+                            PointLocationID = new Guid("1cc040df-f013-47e0-b42b-f3044863f155"),
                             PointName = "Beacon Front Entry"
                         },
                         new
                         {
-                            PointID = new Guid("4ed93ab5-319c-473e-a04d-c04ea9e237ee"),
+                            PointID = new Guid("bc9ef8d3-ed40-471a-b4b4-951b4c6f9a52"),
                             Description = "Auditorio Magno Building",
                             Image360 = "hb",
-                            PointLocationID = new Guid("54ab0c02-5de2-41ff-8915-4e03e01f09c3"),
+                            PointLocationID = new Guid("c59fe3f2-6682-4ec9-9a2e-13fe229eff1b"),
                             PointName = "Auditório Magno"
                         });
                 });

@@ -148,8 +148,8 @@ namespace RepositoryLayer.Migrations
                 columns: new[] { "UserID", "Age", "Avatar", "ConfirmPassword", "Email", "IsActive", "Password", "Username" },
                 values: new object[,]
                 {
-                    { new Guid("aa2f10e2-a65b-4ef8-87b2-66b37b971872"), 21, "ku", "thatsHowMafia7$Works", "adminer@gmail.com", false, "thatsHowMafia7$Works", "admin" },
-                    { new Guid("f3f97f86-f1de-4d67-a62b-21e60bb3f5ec"), 18, "hg", "itsTheEndOfThe$Pasta1", "mariopasta@gmail.com", false, "itsTheEndOfThe$Pasta1", "Mario" }
+                    { new Guid("eed7c5fb-992a-4dab-bf79-20ec21fbaad5"), 21, "ku", "thatsHowMafia7$Works", "adminer@gmail.com", false, "thatsHowMafia7$Works", "admin" },
+                    { new Guid("f15b79b8-d471-4139-8fa2-6db4900d80f7"), 18, "hg", "itsTheEndOfThe$Pasta1", "mariopasta@gmail.com", false, "itsTheEndOfThe$Pasta1", "Mario" }
                 });
 
             migrationBuilder.InsertData(
@@ -157,27 +157,27 @@ namespace RepositoryLayer.Migrations
                 columns: new[] { "LocationID", "Latitude", "Longitude" },
                 values: new object[,]
                 {
-                    { new Guid("01f4542f-73f0-4b47-9111-c6f2a4e9d61d"), 41.179084789896223, -8.6087289902487836 },
-                    { new Guid("1631324d-5da4-4c04-93a2-a320f5bdb14d"), 41.179469643235471, -8.6059597348474224 },
-                    { new Guid("1dcccab2-7df4-420b-9978-55943542df46"), 41.1794081572219, -8.6066880570955586 },
-                    { new Guid("257246ee-7845-439d-b51a-7fb3e7136ee4"), 41.17944250803648, -8.6086616434248153 },
-                    { new Guid("32323b97-e58d-49ee-98f2-2f10f1be7111"), 41.178843863356043, -8.60702514650362 },
-                    { new Guid("3aef4f84-dc03-4a24-91c3-8936921907d6"), 41.177967145422194, -8.6085062262311105 },
-                    { new Guid("3bfcb259-34bb-4feb-ad61-3654097adb62"), 41.179435815023893, -8.6070977092565961 },
-                    { new Guid("44fa0f16-c58d-430c-ab5a-97ef4d9c6f61"), 41.177711788665363, -8.6077586936904744 },
-                    { new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962"), 0.0, 0.0 },
-                    { new Guid("54ab0c02-5de2-41ff-8915-4e03e01f09c3"), 41.178602169673589, -8.6089645852372154 },
-                    { new Guid("6e723e95-6a99-4ae1-aea2-64c4442c3ce9"), 41.178984721995306, -8.6083692036936128 },
-                    { new Guid("7b2f6f93-7b9d-4812-abce-a6c49ea5a345"), 41.17833004000633, -8.6068877514979683 },
-                    { new Guid("9218dee3-812a-44f7-a117-0456eb888a82"), 41.178104599027193, -8.6079171398224492 },
-                    { new Guid("98489606-551b-420c-8096-462e0deadcac"), 41.177841263041209, -8.6079983063935739 },
-                    { new Guid("a3283abe-4d51-41e7-b3f0-fc13dd773c25"), 41.178472726585674, -8.6087807216442869 },
-                    { new Guid("b8513d2c-9be7-4906-850d-4299056c438e"), 41.179110097095872, -8.6070945594407782 },
-                    { new Guid("d69dfd7e-9d29-4ea4-a057-65d1d7d4f581"), 41.179276075812993, -8.6078482087685995 },
-                    { new Guid("dbced685-8e74-4f2b-9178-c0fbc04cf564"), 41.177564994929561, -8.6083047981405159 },
-                    { new Guid("dfc50880-0c57-4d33-8b7b-0b5d99ba4d7c"), 41.178155377732104, -8.6083497177966759 },
-                    { new Guid("eebf553f-a4ae-4047-a969-a9096bbb24f6"), 41.178773264549697, -8.608947821523687 },
-                    { new Guid("feec28de-b0e1-4ed6-97b4-b3964aa45f1c"), 41.178429896021797, -8.6075151873977322 }
+                    { new Guid("1cc040df-f013-47e0-b42b-f3044863f155"), 41.17833004000633, -8.6068877514979683 },
+                    { new Guid("2a671978-6c7a-4ba2-a81d-2b98f7f3c8f2"), 41.177967145422194, -8.6085062262311105 },
+                    { new Guid("36ab6d27-20a4-4937-ae3a-ddbd35cc1e27"), 41.178984721995306, -8.6083692036936128 },
+                    { new Guid("49b88907-af06-4c33-9276-94c32d3cd3f2"), 41.178472726585674, -8.6087807216442869 },
+                    { new Guid("537448be-b920-4541-91a8-dc2e5460dd43"), 41.178773264549697, -8.608947821523687 },
+                    { new Guid("595b51cc-9116-4cf3-86bc-c151c686629a"), 41.177841263041209, -8.6079983063935739 },
+                    { new Guid("753a2d07-ad1c-43be-9474-0e38704f8658"), 41.179110097095872, -8.6070945594407782 },
+                    { new Guid("7816051a-4970-4590-9e9a-ef543ca1ad27"), 41.179276075812993, -8.6078482087685995 },
+                    { new Guid("8481df56-1007-46c0-a3e9-c66b200ba356"), 41.178104599027193, -8.6079171398224492 },
+                    { new Guid("88994499-fd98-46e0-bee9-66af8fe6a9be"), 41.17944250803648, -8.6086616434248153 },
+                    { new Guid("8cf8447e-e9e0-46d9-983c-3ea7d5c7ef47"), 41.177711788665363, -8.6077586936904744 },
+                    { new Guid("932316af-16b6-41bf-8ef1-9f202f735f37"), 0.0, 0.0 },
+                    { new Guid("9871553d-0d82-4fe5-9374-b8786156710c"), 41.177564994929561, -8.6083047981405159 },
+                    { new Guid("9d26ba2b-452b-4858-8691-008d9139142a"), 41.179084789896223, -8.6087289902487836 },
+                    { new Guid("9ddf7080-ac80-42dd-9c34-f5dab4cb6790"), 41.178843863356043, -8.60702514650362 },
+                    { new Guid("ae12188b-ebc9-4c64-87db-946020c31908"), 41.1794081572219, -8.6066880570955586 },
+                    { new Guid("c41b3aa5-d285-4986-8d48-3e54ab5376f8"), 41.178155377732104, -8.6083497177966759 },
+                    { new Guid("c59fe3f2-6682-4ec9-9a2e-13fe229eff1b"), 41.178602169673589, -8.6089645852372154 },
+                    { new Guid("e22a5415-d4af-40a0-9bc3-34ccbc2c5540"), 41.179435815023893, -8.6070977092565961 },
+                    { new Guid("e6f8a262-1514-42c8-bb9a-bb7b857072ac"), 41.179469643235471, -8.6059597348474224 },
+                    { new Guid("f7e0c983-c9af-4036-a4a2-a2b5e2de9032"), 41.178429896021797, -8.6075151873977322 }
                 });
 
             migrationBuilder.InsertData(
@@ -185,10 +185,10 @@ namespace RepositoryLayer.Migrations
                 columns: new[] { "UserID", "Age", "Avatar", "ConfirmPassword", "Email", "Incapacity", "IsActive", "Password", "UserLocationID", "Username" },
                 values: new object[,]
                 {
-                    { new Guid("6b7310d0-42e7-4498-9aec-4260e10fa080"), 22, "yh", "sirvaPureComArroz$1", "ceftigas@gmail.com", "", true, "sirvaPureComArroz$1", new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962"), "Tiago" },
-                    { new Guid("83bb0eaf-5dca-40ac-9960-1d7de79435c0"), 16, "bh", "queijo123ComBacon$", "diogomorfador@gmail.com", "", true, "queijo123ComBacon$", new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962"), "Diogo" },
-                    { new Guid("9d064a8e-ebb2-4d40-97b6-bb79a5d8452d"), 30, "gv", "euGostoDeCamul123$", "carlitosbritos@gmail.com", "wheelChair", true, "euGostoDeCamul123$", new Guid("a3283abe-4d51-41e7-b3f0-fc13dd773c25"), "Carlos" },
-                    { new Guid("f3dd50ce-bb1e-4c88-9e9a-2e51f75c4434"), 22, "as", "forTheMotherFoca@7", "josefino@gmail.com", "", true, "forTheMotherFoca@7", new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962"), "Joseph" }
+                    { new Guid("128cdce3-b7c3-4ebd-8b4e-9e2fba9c30a4"), 16, "bh", "queijo123ComBacon$", "diogomorfador@gmail.com", "", true, "queijo123ComBacon$", new Guid("932316af-16b6-41bf-8ef1-9f202f735f37"), "Diogo" },
+                    { new Guid("44a6aac2-20b8-44cf-b283-f80895b8768c"), 22, "as", "forTheMotherFoca@7", "josefino@gmail.com", "", true, "forTheMotherFoca@7", new Guid("932316af-16b6-41bf-8ef1-9f202f735f37"), "Joseph" },
+                    { new Guid("464b1ff3-7df8-4dbf-a80a-a164c6ed02b0"), 22, "yh", "sirvaPureComArroz$1", "ceftigas@gmail.com", "", true, "sirvaPureComArroz$1", new Guid("932316af-16b6-41bf-8ef1-9f202f735f37"), "Tiago" },
+                    { new Guid("cfe6ffcb-ea08-4bb5-9f9d-76ae099ebd27"), 30, "gv", "euGostoDeCamul123$", "carlitosbritos@gmail.com", "wheelChair", true, "euGostoDeCamul123$", new Guid("49b88907-af06-4c33-9276-94c32d3cd3f2"), "Carlos" }
                 });
 
             migrationBuilder.InsertData(
@@ -196,22 +196,22 @@ namespace RepositoryLayer.Migrations
                 columns: new[] { "PointID", "Description", "Image360", "PointLocationID", "PointName" },
                 values: new object[,]
                 {
-                    { new Guid("3a40db35-7852-40cd-ae6d-83c87ff9851c"), "Beacon from Building F", "bj", new Guid("d69dfd7e-9d29-4ea4-a057-65d1d7d4f581"), "Beacon F" },
-                    { new Guid("4ed93ab5-319c-473e-a04d-c04ea9e237ee"), "Auditorio Magno Building", "hb", new Guid("54ab0c02-5de2-41ff-8915-4e03e01f09c3"), "Auditório Magno" },
-                    { new Guid("624e7d79-c54a-4905-b377-f32e137a4cb6"), "Beacon from Building G", "rh", new Guid("dbced685-8e74-4f2b-9178-c0fbc04cf564"), "Beacon G" },
-                    { new Guid("67efb852-f501-4755-a6e9-c5c83b05b941"), "Beacon from Building I", "gb", new Guid("9218dee3-812a-44f7-a117-0456eb888a82"), "Beacon I" },
-                    { new Guid("6f7fc315-cd70-4914-b205-e99d731eb858"), "Beacon from Building E", "uh", new Guid("1631324d-5da4-4c04-93a2-a320f5bdb14d"), "Beacon E" },
-                    { new Guid("70e264fb-b93c-4870-acb9-9027cedfe93e"), "Beacon from Building L", "cd", new Guid("98489606-551b-420c-8096-462e0deadcac"), "Beacon L" },
-                    { new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a"), "Beacon from Building H", "jg", new Guid("3aef4f84-dc03-4a24-91c3-8936921907d6"), "Beacon H" },
-                    { new Guid("98d31708-cc3f-4701-b51a-ffaf87a67a42"), "Entry from Building H", "rt", new Guid("dfc50880-0c57-4d33-8b7b-0b5d99ba4d7c"), "Beacon Entry Main Gate" },
-                    { new Guid("9aa08875-8921-4c23-b67f-1881a2e32782"), "Beacon from Building A", "sd", new Guid("a3283abe-4d51-41e7-b3f0-fc13dd773c25"), "Beacon A" },
-                    { new Guid("a47c8ec8-f04c-48ff-b9ac-13ac1f760e4a"), "Beacon from Building C", "jy", new Guid("32323b97-e58d-49ee-98f2-2f10f1be7111"), "Beacon C" },
-                    { new Guid("b9040891-d05d-4d45-b074-b9f229df5136"), "Beacon from Building B", "ng", new Guid("44fa0f16-c58d-430c-ab5a-97ef4d9c6f61"), "Beacon B" },
-                    { new Guid("ba33e56c-240e-414a-b73b-077827c0b6b8"), "Entry from parking car next to Auditorio Magno", "ws", new Guid("eebf553f-a4ae-4047-a969-a9096bbb24f6"), "Beacon Entry Backs" },
-                    { new Guid("d7ccb306-cc59-455a-8c98-3c9f35f8a4b9"), "Entry from building E", "gf", new Guid("7b2f6f93-7b9d-4812-abce-a6c49ea5a345"), "Beacon Front Entry" },
-                    { new Guid("d9e82cd6-5a83-47c7-a12e-cf50ae3e041d"), "Beacon from Building K", "db", new Guid("6e723e95-6a99-4ae1-aea2-64c4442c3ce9"), "Beacon K" },
-                    { new Guid("dbc624be-5f60-4886-a01a-7676708a0313"), "Beacon from Building J", "ad", new Guid("feec28de-b0e1-4ed6-97b4-b3964aa45f1c"), "Beacon J" },
-                    { new Guid("f9c54552-dd35-41e2-81ca-3e6b161e036d"), "Beacon from Building D", "gv", new Guid("b8513d2c-9be7-4906-850d-4299056c438e"), "Beacon D" }
+                    { new Guid("1e29bc7c-daf3-4baf-821f-549f772fcb1b"), "Entry from parking car next to Auditorio Magno", "ws", new Guid("537448be-b920-4541-91a8-dc2e5460dd43"), "Beacon Entry Backs" },
+                    { new Guid("267c58c2-e7a9-4912-a211-ccdad2e78a9c"), "Beacon from Building K", "db", new Guid("36ab6d27-20a4-4937-ae3a-ddbd35cc1e27"), "Beacon K" },
+                    { new Guid("2e3eca64-e939-4f2c-93ea-0306f4e62a1c"), "Beacon from Building D", "gv", new Guid("753a2d07-ad1c-43be-9474-0e38704f8658"), "Beacon D" },
+                    { new Guid("4fadedf8-9263-43b0-9695-6db3f3ff4d8e"), "Beacon from Building J", "ad", new Guid("f7e0c983-c9af-4036-a4a2-a2b5e2de9032"), "Beacon J" },
+                    { new Guid("60bf9cf6-b963-42af-ae34-a559a73463da"), "Beacon from Building I", "gb", new Guid("8481df56-1007-46c0-a3e9-c66b200ba356"), "Beacon I" },
+                    { new Guid("9ebe9d4d-69ce-4d11-bf41-a282981da133"), "Entry from Building H", "rt", new Guid("c41b3aa5-d285-4986-8d48-3e54ab5376f8"), "Beacon Entry Main Gate" },
+                    { new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac"), "Beacon from Building H", "jg", new Guid("2a671978-6c7a-4ba2-a81d-2b98f7f3c8f2"), "Beacon H" },
+                    { new Guid("ae1feab2-ba41-4013-a65c-a96005918e93"), "Beacon from Building C", "jy", new Guid("9ddf7080-ac80-42dd-9c34-f5dab4cb6790"), "Beacon C" },
+                    { new Guid("bc9ef8d3-ed40-471a-b4b4-951b4c6f9a52"), "Auditorio Magno Building", "hb", new Guid("c59fe3f2-6682-4ec9-9a2e-13fe229eff1b"), "Auditório Magno" },
+                    { new Guid("c29aae18-81eb-4be9-8b96-59f09e4c20c8"), "Beacon from Building F", "bj", new Guid("7816051a-4970-4590-9e9a-ef543ca1ad27"), "Beacon F" },
+                    { new Guid("d24e559b-5582-40a1-b123-51d2c12d5c8b"), "Beacon from Building B", "ng", new Guid("8cf8447e-e9e0-46d9-983c-3ea7d5c7ef47"), "Beacon B" },
+                    { new Guid("d5fb6972-4a61-4c11-9c15-8e856169c54e"), "Beacon from Building G", "rh", new Guid("9871553d-0d82-4fe5-9374-b8786156710c"), "Beacon G" },
+                    { new Guid("d9ad703e-3b2e-4b8e-bfe0-1bbbc10f71ba"), "Beacon from Building E", "uh", new Guid("e6f8a262-1514-42c8-bb9a-bb7b857072ac"), "Beacon E" },
+                    { new Guid("dc541192-44b7-454c-b81e-dca6119f8352"), "Beacon from Building A", "sd", new Guid("49b88907-af06-4c33-9276-94c32d3cd3f2"), "Beacon A" },
+                    { new Guid("fa6e8a20-8558-4a18-ad41-7876abb95662"), "Beacon from Building L", "cd", new Guid("595b51cc-9116-4cf3-86bc-c151c686629a"), "Beacon L" },
+                    { new Guid("fb2d7b4c-0f58-413b-85fc-7bb1664c0918"), "Entry from building E", "gf", new Guid("1cc040df-f013-47e0-b42b-f3044863f155"), "Beacon Front Entry" }
                 });
 
             migrationBuilder.InsertData(
@@ -219,20 +219,20 @@ namespace RepositoryLayer.Migrations
                 columns: new[] { "CourseID", "Description", "EndPointID", "IncapacityAcessible", "InitialPointID" },
                 values: new object[,]
                 {
-                    { new Guid("097ad3c5-5bcb-48c4-bba8-538a1b61cc6c"), "Path from I to A", new Guid("9aa08875-8921-4c23-b67f-1881a2e32782"), true, new Guid("67efb852-f501-4755-a6e9-c5c83b05b941") },
-                    { new Guid("12bf1d60-d833-414f-832f-49db5b58e591"), "Path from G to H", new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a"), true, new Guid("624e7d79-c54a-4905-b377-f32e137a4cb6") },
-                    { new Guid("1f9e0996-4764-4cb3-8bd6-fc1f19fceea2"), "Path from B to G", new Guid("624e7d79-c54a-4905-b377-f32e137a4cb6"), true, new Guid("b9040891-d05d-4d45-b074-b9f229df5136") },
-                    { new Guid("3505fb67-2834-44ad-84c4-1089e77e8c10"), "Path from H to A", new Guid("9aa08875-8921-4c23-b67f-1881a2e32782"), true, new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a") },
-                    { new Guid("471a79f4-ef9c-48c7-aa39-7e8f3dd05227"), "Path from H to G", new Guid("624e7d79-c54a-4905-b377-f32e137a4cb6"), true, new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a") },
-                    { new Guid("4b758ac8-a8dc-4e80-85dc-efee63ee69da"), "Path from B to I", new Guid("67efb852-f501-4755-a6e9-c5c83b05b941"), true, new Guid("b9040891-d05d-4d45-b074-b9f229df5136") },
-                    { new Guid("4ba06619-5907-404a-9bb2-65524aefd01e"), "Path from A to AuditorioMagno", new Guid("4ed93ab5-319c-473e-a04d-c04ea9e237ee"), true, new Guid("9aa08875-8921-4c23-b67f-1881a2e32782") },
-                    { new Guid("7b3e78c3-814f-4b97-b647-6834783ebada"), "Path from I to B", new Guid("b9040891-d05d-4d45-b074-b9f229df5136"), true, new Guid("67efb852-f501-4755-a6e9-c5c83b05b941") },
-                    { new Guid("99b6dfce-cf03-4fb1-b153-2d85a5c978c7"), "Path from A to I", new Guid("67efb852-f501-4755-a6e9-c5c83b05b941"), true, new Guid("9aa08875-8921-4c23-b67f-1881a2e32782") },
-                    { new Guid("a0304656-1c57-45d7-9f2f-4dea821fdc69"), "Path from AuditorioMagno to A ", new Guid("9aa08875-8921-4c23-b67f-1881a2e32782"), true, new Guid("4ed93ab5-319c-473e-a04d-c04ea9e237ee") },
-                    { new Guid("a5e9c37e-3c8f-482b-bdf7-2e6f6a52706e"), "Path from G to B", new Guid("b9040891-d05d-4d45-b074-b9f229df5136"), true, new Guid("624e7d79-c54a-4905-b377-f32e137a4cb6") },
-                    { new Guid("b5570534-f022-4277-879d-26ec309d2e1a"), "Path from A to H", new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a"), true, new Guid("9aa08875-8921-4c23-b67f-1881a2e32782") },
-                    { new Guid("b5b8b886-2c3c-4287-bcf8-a541a1936446"), "Path from H to AuditorioMagno", new Guid("4ed93ab5-319c-473e-a04d-c04ea9e237ee"), true, new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a") },
-                    { new Guid("e35ca02f-a0bc-4f98-91f3-ba78c55fe2bd"), "Path from AuditorioMagno to H", new Guid("946e4a21-bc98-4bb0-b8e6-e2ea7e1fec6a"), true, new Guid("4ed93ab5-319c-473e-a04d-c04ea9e237ee") }
+                    { new Guid("1ac1bc72-16fb-45d1-99a1-37e928bf4547"), "Path from B to G", new Guid("d5fb6972-4a61-4c11-9c15-8e856169c54e"), true, new Guid("d24e559b-5582-40a1-b123-51d2c12d5c8b") },
+                    { new Guid("2df6a70f-652d-480b-a62e-d98439626fe2"), "Path from AuditorioMagno to A ", new Guid("dc541192-44b7-454c-b81e-dca6119f8352"), true, new Guid("bc9ef8d3-ed40-471a-b4b4-951b4c6f9a52") },
+                    { new Guid("80f2d865-9121-4405-ac2b-322d389257f9"), "Path from H to AuditorioMagno", new Guid("bc9ef8d3-ed40-471a-b4b4-951b4c6f9a52"), true, new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac") },
+                    { new Guid("85bb7c32-32b7-4d49-90e5-dc52db2d08a4"), "Path from AuditorioMagno to H", new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac"), true, new Guid("bc9ef8d3-ed40-471a-b4b4-951b4c6f9a52") },
+                    { new Guid("8ffa3a59-ed58-4bee-a6c9-5be30920f596"), "Path from I to A", new Guid("dc541192-44b7-454c-b81e-dca6119f8352"), true, new Guid("60bf9cf6-b963-42af-ae34-a559a73463da") },
+                    { new Guid("9b3eb38a-2857-40a6-a5c8-4d36e14c7147"), "Path from A to I", new Guid("60bf9cf6-b963-42af-ae34-a559a73463da"), true, new Guid("dc541192-44b7-454c-b81e-dca6119f8352") },
+                    { new Guid("a8d75a59-c3fc-4d24-8d19-35080c5e4f96"), "Path from G to B", new Guid("d24e559b-5582-40a1-b123-51d2c12d5c8b"), true, new Guid("d5fb6972-4a61-4c11-9c15-8e856169c54e") },
+                    { new Guid("b1bd4c64-2e8a-42c6-bfc6-7d230660528b"), "Path from A to H", new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac"), true, new Guid("dc541192-44b7-454c-b81e-dca6119f8352") },
+                    { new Guid("ca23019d-c3c2-4ab7-9e46-95e3d9f63b98"), "Path from A to AuditorioMagno", new Guid("bc9ef8d3-ed40-471a-b4b4-951b4c6f9a52"), true, new Guid("dc541192-44b7-454c-b81e-dca6119f8352") },
+                    { new Guid("cf6429a9-0db6-4dfb-a0ff-8e89e0b61499"), "Path from H to A", new Guid("dc541192-44b7-454c-b81e-dca6119f8352"), true, new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac") },
+                    { new Guid("e85cbe41-9061-47a4-a445-485c76d4762a"), "Path from H to G", new Guid("d5fb6972-4a61-4c11-9c15-8e856169c54e"), true, new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac") },
+                    { new Guid("fa5ba836-c23b-4cc0-9a92-c71a788c71cb"), "Path from I to B", new Guid("d24e559b-5582-40a1-b123-51d2c12d5c8b"), true, new Guid("60bf9cf6-b963-42af-ae34-a559a73463da") },
+                    { new Guid("fa9418b5-2065-48f2-b32f-86d2dfd4790d"), "Path from B to I", new Guid("60bf9cf6-b963-42af-ae34-a559a73463da"), true, new Guid("d24e559b-5582-40a1-b123-51d2c12d5c8b") },
+                    { new Guid("fce83bd0-512e-409d-a6f6-bdce8971bb8b"), "Path from G to H", new Guid("a954516d-cfec-45f8-bdb7-fc9f4498e5ac"), true, new Guid("d5fb6972-4a61-4c11-9c15-8e856169c54e") }
                 });
 
             migrationBuilder.InsertData(
@@ -240,13 +240,13 @@ namespace RepositoryLayer.Migrations
                 columns: new[] { "FeedbackID", "ClientID", "CloudFolderURL", "FeedbackDate", "FeedbackDescription", "FeedbackLocationID" },
                 values: new object[,]
                 {
-                    { new Guid("72ff822d-fbf1-48b4-b364-c138b6c1a914"), new Guid("9d064a8e-ebb2-4d40-97b6-bb79a5d8452d"), "https://www.google.com", new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6378), "Good path with awesome view!", new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962") },
-                    { new Guid("797fe6df-1828-41ba-a5df-9d8e0a3809da"), new Guid("9d064a8e-ebb2-4d40-97b6-bb79a5d8452d"), "https://www.google.com", new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6363), "It is in construction work!", new Guid("a3283abe-4d51-41e7-b3f0-fc13dd773c25") },
-                    { new Guid("7c0524a8-0f24-4270-bf75-b7ce63feb5a9"), new Guid("83bb0eaf-5dca-40ac-9960-1d7de79435c0"), "https://www.google.com", new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6375), "The place smells bad!", new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962") },
-                    { new Guid("8d02939f-63fa-464a-a0ca-cb09b6bebeb2"), new Guid("6b7310d0-42e7-4498-9aec-4260e10fa080"), "https://www.google.com", new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6371), "The sight is awful!", new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962") },
-                    { new Guid("9b7cd70b-9276-4278-acce-59b12bbd7a68"), new Guid("f3dd50ce-bb1e-4c88-9e9a-2e51f75c4434"), "https://www.google.com", new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6353), "I cant see the building!", new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962") },
-                    { new Guid("ab003761-232c-4c97-acf5-826065e56c56"), new Guid("f3dd50ce-bb1e-4c88-9e9a-2e51f75c4434"), "https://www.google.com", new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6381), "Thank you for the reception from ISEP!", new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962") },
-                    { new Guid("e0e94b6c-a75e-4a69-8c1e-b2f7885151b2"), new Guid("83bb0eaf-5dca-40ac-9960-1d7de79435c0"), "https://www.google.com", new DateTime(2023, 5, 26, 18, 7, 46, 323, DateTimeKind.Utc).AddTicks(6367), "The building is different.", new Guid("5313e5aa-6aea-4262-8a44-b5e1d01c8962") }
+                    { new Guid("14bf6c6d-45c5-4d36-ba90-dbeb07c6c5b5"), new Guid("464b1ff3-7df8-4dbf-a80a-a164c6ed02b0"), "https://www.google.com", new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9321), "The sight is awful!", new Guid("932316af-16b6-41bf-8ef1-9f202f735f37") },
+                    { new Guid("633f9bc1-cb28-400f-89e2-1c8a78157599"), new Guid("44a6aac2-20b8-44cf-b283-f80895b8768c"), "https://www.google.com", new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9332), "Thank you for the reception from ISEP!", new Guid("932316af-16b6-41bf-8ef1-9f202f735f37") },
+                    { new Guid("68f7ddc7-9c13-4360-8ec9-894fcc84dffd"), new Guid("128cdce3-b7c3-4ebd-8b4e-9e2fba9c30a4"), "https://www.google.com", new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9315), "The building is different.", new Guid("932316af-16b6-41bf-8ef1-9f202f735f37") },
+                    { new Guid("a6cc8939-adac-40fc-ac60-8444305639ec"), new Guid("cfe6ffcb-ea08-4bb5-9f9d-76ae099ebd27"), "https://www.google.com", new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9311), "It is in construction work!", new Guid("49b88907-af06-4c33-9276-94c32d3cd3f2") },
+                    { new Guid("ab0ffafb-e017-4b0e-a800-b3083c218386"), new Guid("128cdce3-b7c3-4ebd-8b4e-9e2fba9c30a4"), "https://www.google.com", new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9326), "The place smells bad!", new Guid("932316af-16b6-41bf-8ef1-9f202f735f37") },
+                    { new Guid("c3c40450-c6e6-4000-b03b-12178b5feef9"), new Guid("cfe6ffcb-ea08-4bb5-9f9d-76ae099ebd27"), "https://www.google.com", new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9329), "Good path with awesome view!", new Guid("932316af-16b6-41bf-8ef1-9f202f735f37") },
+                    { new Guid("d825b44f-89aa-4798-a2d5-573ed40d7a57"), new Guid("44a6aac2-20b8-44cf-b283-f80895b8768c"), "https://www.google.com", new DateTime(2023, 6, 4, 15, 14, 48, 692, DateTimeKind.Utc).AddTicks(9301), "I cant see the building!", new Guid("932316af-16b6-41bf-8ef1-9f202f735f37") }
                 });
 
             migrationBuilder.CreateIndex(
